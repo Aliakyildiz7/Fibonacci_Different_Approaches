@@ -102,15 +102,4 @@ for x in range(n):
 time2 = time()
 print(f"Library memoization method  time for {n-1}th term is", time2 - time1, "seconds")
 
-"""
-#Recursion without memoization is useless
-n = 40
-time1 = time()
-for x in range(n):
-
-    fibo_recur(x)
-
-time2 = time()
-print(f"Recursive method  time for {n-1}th term is", time2 - time1, "seconds")
-"""
 
